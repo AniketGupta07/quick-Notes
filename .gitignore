@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Credentials / secrets -- never commit these
+google.json
+.env
+.env.*
+*.pem
+*.key
+
+# Expo local state
+.expo/
+.expo-shared/
+web-build/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
